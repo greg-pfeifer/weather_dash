@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <section class="top-section">
+        <div class="left-section">
+            <h1>Search for a City:</h1>
+            <form>
+                <input class="input-area" type=text placeholder="Philadelphia">
+                <label for="weather"></label>
+            </form>
+            <button class="searchBtn">Search</button>
+        </div>
+        <div class="right-section">
+            <h1 class='top-city-name'>Location: </h1>
+            <br>
+            <p class='top-temp'>Temperature: </p>
+            <br>
+            <p class='top-wind'>Wind: </p>
+            <br>
+            <p class='top-humidity'>Humidity: </p>
+            <br>
+        </div>
+    </section>
+
+    <section class="bottom-section">
+        <div class="boxes">
+            <h3 class="box-one-date"></h3>
+            <p class="box-one-temp"></p>
+            <p class="box-one-wind"></p>
+            <p class="box-one-humidity"></p>
+        </div>
+
+        <div class="boxes">
+            <h3 class="box-two-date"></h3>
+            <p class="box-two-temp"></p>
+            <p class="box-two-wind"></p>
+            <p class="box-two-humidity"></p>
+        </div>
+
+        <div class="boxes">
+            <h3 class="box-three-date"></h3>
+            <p class="box-three-temp"></p>
+            <p class="box-three-wind"></p>
+            <p class="box-three-humidity"></p>
+        </div>
+
+        <div class="boxes">
+            <h3 class="box-four-date"></h3>
+            <p class="box-four-temp"></p>
+            <p class="box-four-wind"></p>
+            <p class="box-four-humidity"></p>
+        </div>
+
+        <div class="boxes">
+            <h3 class="box-five-date"></h3>
+            <p class="box-five-temp"></p>
+            <p class="box-five-wind"></p>
+            <p class="box-five-humidity"></p>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
