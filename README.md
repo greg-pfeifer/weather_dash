@@ -12,7 +12,7 @@ This was good practice for navigating the data returned by an API. In the future
 
 Screenshot of deployed application
 
-![Deployed application screenshot](assets/weather_screenshot.png)
+![Deployed application screenshot](Assets/weather_screenshot.png)
 
 ## License
 
